@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 15vmin;
+  width: 40vmin;
+  pointer-events: none;
+  margin-left: -32cm;
+  margin-right: 0cm;
+  margin-top: -3cm;
+  margin-bottom: 35cm;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+ /*//background-color: #babec5;*/
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Login {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  height: 10vmin;
+  width: 20vmin;
+  margin-left: 35cm;
+  margin-right: auto ;
+  margin-top: 1autocm;
+  margin-bottom: auto;
+}
+
+.Login2 {
+  background-color: white;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  margin-left: auto;
+  margin-right: 6cm ;
+  margin-top: -2,5cm;
+  margin-bottom: 1cm;
+}
+.Recherche {
+  height: 5vmin;
+  width: 10vmin;
+  display:flex;
+  background-color: black;
+  margin-left: 9cm;
+  
+  margin-bottom: 1cm;
+}
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
