@@ -8,7 +8,7 @@ function Login2(){
             <button>Se connecter </button>
         </div>
     )
-const message(i){};
+
 
 }
 
