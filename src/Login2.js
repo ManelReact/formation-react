@@ -1,4 +1,7 @@
 import React from 'react';
+const connect = msgOk=>{
+    console.log("truc")
+}
 
 function Login2(){
     return(
@@ -8,8 +11,6 @@ function Login2(){
             <button>Se connecter </button>
         </div>
     )
-
-
 }
 
 export default Login2;
