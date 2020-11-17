@@ -1,9 +1,11 @@
 import logo from './kobo.png';
 import Login from './Login';
-import Login2 from './Login2';
+import Login2 from './Login2.js';
 import Menu from './Menu';
 import Recherche from './Recherche';
 import './App.css';
+import { BrowserRouter as Router, Redirect, Route, Switch } from
+'react-router-dom';
 
 function App() {
   return (
@@ -14,7 +16,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Site de quelque chose
         </p>
       </header>
     </div>

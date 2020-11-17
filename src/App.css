@@ -44,7 +44,7 @@
   width: 20vmin;
   margin-left: 35cm;
   margin-right: auto ;
-  margin-top: 1autocm;
+  margin-top: 1cm;
   margin-bottom: auto;
 }
 
@@ -64,8 +64,7 @@
   display:flex;
   background-color: black;
   margin-left: 9cm;
-  
-  margin-bottom: 1cm;
+   margin-bottom: 1cm;
 }
 /*@keyframes App-logo-spin {
   from {
