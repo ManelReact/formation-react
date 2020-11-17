@@ -23,17 +23,22 @@ export default Login2;*/
 
 import React from 'react';
 
+
 function Login2() {
 
-  function connect() {
-    alert('nope');
+  let username;
+
+  function connect(a) {
+    if(a=='1')
+    {alert('ok');}
+    else
+    {alert ('nope');}
   }
   
   return (
     <div className="Login2">
-    Utilisateur <input type="text" />
-    Mot de passe <input type="password" />
-    <button onClick={connect}>
+    Utilisateur <input type="text" onChange={username => username.target.value} />
+    <button onClick={ connect.bind(this,username) }>
       connexion
     </button>
     </div>  
