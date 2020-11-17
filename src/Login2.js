@@ -27,18 +27,20 @@ import React from 'react';
 function Login2() {
 
   let username;
+  let password;
 
-  function connect(a) {
-    if(a=='1')
+  function connect(a,b) {
+    if(a=='1' && b=='2')
     {alert('ok');}
     else
-    {alert ('nope');}
+    {alert ('non');}
   }
   
   return (
     <div className="Login2">
     Utilisateur <input type="text" onChange={username => username.target.value} />
-    <button onClick={ connect.bind(this,username) }>
+    Password <input type="text" onChange={password => password.target.value} />
+    <button onClick={ connect.bind(this,username,password) }>
       connexion
     </button>
     </div>  
